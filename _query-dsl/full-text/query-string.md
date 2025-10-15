@@ -10,6 +10,7 @@ redirect_from:
 
 # Query string query
 
+
 A `query_string` query parses the query string based on the [query string syntax](#query-string-syntax). It provides for creating powerful yet concise queries that can incorporate wildcards and search multiple fields.
 
 Searches with `query_string` queries do not return nested documents. To search nested fields, use the [`nested` query]({{site.url}}{{site.baseurl}}/field-types/supported-field-types/nested/).
